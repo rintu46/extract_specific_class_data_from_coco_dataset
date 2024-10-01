@@ -1,8 +1,8 @@
 import os
 
 # Define your image and label directories
-image_folder = '/home/parvej/Documents/archive (1)/person_class/data_2014/images'
-label_folder = '/home/parvej/Documents/archive (1)/person_class/data_2014/labels'
+image_folder = '/home/Documents/archive (1)/person_class/data_2014/images'
+label_folder = '/home/Documents/archive (1)/person_class/data_2014/labels'
 
 # Get a list of all image files in the image folder
 for image_file in os.listdir(image_folder):
