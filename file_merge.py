@@ -1,28 +1,11 @@
-
-# val_image_folder = '/home/parvej/Documents/archive (1)/person_class/val_data_2014/images'
-# val_label_folder = '/home/parvej/Documents/archive (1)/person_class/val_data_2014/labels'
-
-
-# target_image_folder = '/home/parvej/Documents/archive (1)/copied' 
-# target_label_folder = '/home/parvej/Documents/archive (1)/copied'
-
-
-
-
-
-
-
-
-
-
 import os
 import shutil
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
 # Define the paths
-source_folder = '/home/parvej/Documents/archive (1)/person_class/val_data_all'
-target_folder = '/home/parvej/Documents/archive (1)/person_class/train_data_all'
+source_folder = '/home/Documents/archive (1)/person_class/val_data_all'
+target_folder = '/home/Documents/archive (1)/person_class/train_data_all'
 print('target_folder: ', target_folder)
 os.makedirs(target_folder, exist_ok=True)
 
