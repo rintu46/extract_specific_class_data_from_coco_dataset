@@ -2,12 +2,12 @@ import os
 import shutil
 
 # Define your source and destination directories
-image_folder = '/home/parvej/Documents/archive (1)/coco2014/images/train2014'
-label_folder = '/home/parvej/Documents/archive (1)/coco2014/labels/train2014'
+image_folder = '/home/Documents/archive (1)/coco2014/images/train2014'
+label_folder = '/home/Documents/archive (1)/coco2014/labels/train2014'
 
 # Define your destination directories
-destination_image_folder = '/home/parvej/Documents/archive (1)/person_class/train_data_all/images'
-destination_label_folder = '/home/parvej/Documents/archive (1)/person_class/train_data_all/labels'
+destination_image_folder = '/home/Documents/archive (1)/person_class/train_data_all/images'
+destination_label_folder = '/home/Documents/archive (1)/person_class/train_data_all/labels'
 
 # Ensure the destination directories exist
 os.makedirs(destination_image_folder, exist_ok=True)
