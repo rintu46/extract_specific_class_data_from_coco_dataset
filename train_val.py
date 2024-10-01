@@ -3,14 +3,14 @@ import shutil
 import random
 
 # Define your source folders
-image_folder = '/home/parvej/Documents/archive (1)/person_class/train_data_all/images'
-label_folder = '/home/parvej/Documents/archive (1)/person_class/train_data_all/labels'
+image_folder = '/home/Documents/archive (1)/person_class/train_data_all/images'
+label_folder = '/home/Documents/archive (1)/person_class/train_data_all/labels'
 
 # Define your destination folders
-train_image_folder = '/home/parvej/Documents/archive (1)/main_dataset/train/images'
-train_label_folder = '/home/parvej/Documents/archive (1)/main_dataset/train/labels'
-val_image_folder = '/home/parvej/Documents/archive (1)/main_dataset/val/images'
-val_label_folder = '/home/parvej/Documents/archive (1)/main_dataset/val/labels'
+train_image_folder = '/home/Documents/archive (1)/main_dataset/train/images'
+train_label_folder = '/home/Documents/archive (1)/main_dataset/train/labels'
+val_image_folder = '/home/Documents/archive (1)/main_dataset/val/images'
+val_label_folder = '/home/Documents/archive (1)/main_dataset/val/labels'
 
 # Ensure the destination directories exist
 os.makedirs(train_image_folder, exist_ok=True)
